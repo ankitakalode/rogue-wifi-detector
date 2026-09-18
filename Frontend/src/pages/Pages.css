@@ -1,0 +1,96 @@
+.page-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #0E1621;
+  color: #EDF1F5;
+  font-family: 'Inter', sans-serif;
+}
+.page-layout main {
+  flex: 1;
+  padding: 64px;
+  max-width: 760px;
+}
+.page-layout h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.about-intro, .login-note {
+  color: #8CA0B3;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 60ch;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 28px;
+}
+.team-card {
+  border-top: 1px solid #1E2C3D;
+  padding-top: 18px;
+}
+.avatar-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #1B2838;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.team-card h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 320px;
+}
+.login-form label {
+  font-size: 13px;
+  color: #8CA0B3;
+  margin-top: 12px;
+}
+.login-form input {
+  background: #141F2E;
+  border: 1px solid #1E2C3D;
+  border-radius: 6px;
+  padding: 10px 12px;
+  color: #EDF1F5;
+  font-size: 14px;
+}
+.login-form button {
+  margin-top: 24px;
+  background: #35D0B8;
+  color: #0E1621;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.steps-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.steps-detail .step {
+  border-top: 1px solid #1E2C3D;
+  padding-top: 16px;
+}
+.steps-detail h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.steps-detail p {
+  color: #8CA0B3;
+  font-size: 14px;
+  line-height: 1.6;
+}

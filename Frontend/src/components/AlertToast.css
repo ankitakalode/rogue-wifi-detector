@@ -1,0 +1,23 @@
+.alert-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #141F2E;
+  border: 1px solid #FF6154;
+  border-left: 4px solid #FF6154;
+  border-radius: 8px;
+  padding: 14px 18px;
+  max-width: 300px;
+  z-index: 999;
+}
+.alert-toast strong {
+  color: #FF6154;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 4px;
+}
+.alert-toast p {
+  color: #8CA0B3;
+  font-size: 13px;
+  margin: 0;
+}
